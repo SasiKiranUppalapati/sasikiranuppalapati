@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiran General Insurance</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-700 text-white p-5 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Kiran General Insurance</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#services" class="hover:underline">Services</a></li>
+          <li><a href="#booking" class="hover:underline">Slot Booking</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-white py-10" id="hero">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-4">Secure Your Vehicle, Drive with Confidence</h2>
+      <p class="text-lg mb-6">Vehicle insurance made easy — Book your consultation today</p>
+      <a href="#booking" class="bg-blue-600 hover:bg-blue-800 text-white px-6 py-2 rounded">Book a Slot</a>
+    </div>
+  </section>
+
+  <section class="py-10" id="services">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Our Services</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-white p-5 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Car Insurance</h3>
+          <p>Comprehensive coverage for your cars against accidents, theft, and damage.</p>
+        </div>
+        <div class="bg-white p-5 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Bike Insurance</h3>
+          <p>Protect your two-wheeler with our reliable and budget-friendly insurance plans.</p>
+        </div>
+        <div class="bg-white p-5 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Tractor Insurance</h3>
+          <p>Secure your agricultural assets with our specialized tractor insurance policies.</p>
+        </div>
+        <div class="bg-white p-5 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Any Vehicle</h3>
+          <p>Insurance solutions for all types of vehicles—private or commercial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10 bg-blue-50" id="booking">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Book a Consultation Slot</h2>
+      <form class="max-w-xl mx-auto bg-white p-6 rounded shadow">
+        <div class="mb-4">
+          <label class="block font-medium mb-1">Full Name</label>
+          <input type="text" class="w-full border rounded px-3 py-2" required />
+        </div>
+        <div class="mb-4">
+          <label class="block font-medium mb-1">Email Address</label>
+          <input type="email" class="w-full border rounded px-3 py-2" required />
+        </div>
+        <div class="mb-4">
+          <label class="block font-medium mb-1">Select Service</label>
+          <select class="w-full border rounded px-3 py-2">
+            <option>Car Insurance</option>
+            <option>Bike Insurance</option>
+            <option>Tractor Insurance</option>
+            <option>Other Vehicle Insurance</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="block font-medium mb-1">Preferred Date & Time</label>
+          <input type="datetime-local" class="w-full border rounded px-3 py-2" required />
+        </div>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-800 text-white px-4 py-2 rounded">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-blue-700 text-white py-6" id="contact">
+    <div class="container mx-auto text-center">
+      <p>Contact us: 7396149544</p>
+      <p>Address: Sivalayam Road, Chagantipadu, Thotlavalluru Mandal, Krishna District</p>
+      <p class="mt-2">&copy; 2025 Kiran General Insurance. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
